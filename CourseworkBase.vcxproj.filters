@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\Shared">
+      <UniqueIdentifier>{4e4a6a07-d337-42ef-975e-413637bbb864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Demo">
+      <UniqueIdentifier>{4af3086a-f0ad-4421-8647-84b711bdf81f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Shared">
+      <UniqueIdentifier>{82649680-6f01-4f4b-9016-33d2f9930b72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Demo">
+      <UniqueIdentifier>{43825ca5-b5e1-402d-a57a-be1b7f41d1ae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseEngine.h">
+      <Filter>헤더 파일\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayableObject.h">
+      <Filter>헤더 파일\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="FontManager.h">
+      <Filter>헤더 파일\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="JPGImage.h">
+      <Filter>헤더 파일\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementPosition.h">
+      <Filter>헤더 파일\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="templates.h">
+      <Filter>헤더 파일\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="TileManager.h">
+      <Filter>헤더 파일\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="BouncingBall.h">
+      <Filter>헤더 파일\Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="BouncingBallMain.h">
+      <Filter>헤더 파일\Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo2aMain.h">
+      <Filter>헤더 파일\Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo2Main.h">
+      <Filter>헤더 파일\Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo2Object.h">
+      <Filter>헤더 파일\Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo2TileManager.h">
+      <Filter>헤더 파일\Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo3Main.h">
+      <Filter>헤더 파일\Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo3Object.h">
+      <Filter>헤더 파일\Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo3ObjectFinished.h">
+      <Filter>헤더 파일\Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo3TileManager.h">
+      <Filter>헤더 파일\Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo4Main.h">
+      <Filter>헤더 파일\Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo4Object.h">
+      <Filter>헤더 파일\Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo4TileManager.h">
+      <Filter>헤더 파일\Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="MyProjectMain.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Tank.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectionIcon.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTileManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerTank.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyTank.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProp.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Base.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BaseEngine.cpp">
+      <Filter>소스 파일\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayableObject.cpp">
+      <Filter>소스 파일\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="FontManager.cpp">
+      <Filter>소스 파일\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="JPGImage.cpp">
+      <Filter>소스 파일\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="TileManager.cpp">
+      <Filter>소스 파일\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="BouncingBall.cpp">
+      <Filter>소스 파일\Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="BouncingBallMain.cpp">
+      <Filter>소스 파일\Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo2aMain.cpp">
+      <Filter>소스 파일\Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo2Main.cpp">
+      <Filter>소스 파일\Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo2Object.cpp">
+      <Filter>소스 파일\Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo2TileManager.cpp">
+      <Filter>소스 파일\Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo3Main.cpp">
+      <Filter>소스 파일\Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo3Object.cpp">
+      <Filter>소스 파일\Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo3ObjectFinished.cpp">
+      <Filter>소스 파일\Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo3TileManager.cpp">
+      <Filter>소스 파일\Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo4Main.cpp">
+      <Filter>소스 파일\Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo4Object.cpp">
+      <Filter>소스 파일\Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo4TileManager.cpp">
+      <Filter>소스 파일\Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\OneDrive\바탕 화면\201870024 유승현 개인졸업작품\BattleCity\src\Base.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\OneDrive\바탕 화면\201870024 유승현 개인졸업작품\BattleCity\src\Bullet.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\OneDrive\바탕 화면\201870024 유승현 개인졸업작품\BattleCity\src\EnemyTank.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\OneDrive\바탕 화면\201870024 유승현 개인졸업작품\BattleCity\src\GameProp.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\OneDrive\바탕 화면\201870024 유승현 개인졸업작품\BattleCity\src\mainfunction.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\OneDrive\바탕 화면\201870024 유승현 개인졸업작품\BattleCity\src\MyProjectMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\OneDrive\바탕 화면\201870024 유승현 개인졸업작품\BattleCity\src\SelectionIcon.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\OneDrive\바탕 화면\201870024 유승현 개인졸업작품\BattleCity\src\Tank.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\OneDrive\바탕 화면\201870024 유승현 개인졸업작품\BattleCity\src\MyTileManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\OneDrive\바탕 화면\201870024 유승현 개인졸업작품\BattleCity\src\PlayerTank.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
